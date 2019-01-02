@@ -1,0 +1,72 @@
+body {
+     background-image: url(images/6.png);
+ }
+
+
+
+input {
+     outline:none;
+ }
+ 
+ 
+
+ div {
+      margin:15px 0;
+      text-align:center;
+	  color: yellow;
+ }
+ 
+
+ 
+ div label {
+      margin:0 3px 0 0;
+ }
+ 
+ 
+ 
+ div input[type=number] {
+      padding:16px 19px;
+      border-radius:20px;
+      border:1px solid black;
+	  background-color: yellow;
+	  color: red;
+
+}
+
+ 
+ div input[type=button] {
+     
+	  
+      padding:6px 20px;
+      border-radius:30px;
+	  opacity: 0.8;
+      font-size:20px;
+      border:8px solid black;
+      cursor:pointer;
+	  background-color: green;
+	  color: blue;
+ }
+ 
+ 
+ #test {
+      transform: scale(1);
+      transition: 0.2s all;
+	  margin: 25px;
+}
+ 
+ 
+ 
+ #test:hover {
+  transform: rotate(360deg) scale(1.4);
+  
+ 
+}
+
+ action {
+   color: red;
+ 
+ }
+ 
+
+
+ 
